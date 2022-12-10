@@ -1,11 +1,7 @@
 from Interpreter import Interpreter
 from Preprocess import Preprocess
 
-import sys
-import os
 
-
-# On dev
 class Run:
     print("""
         Run called
