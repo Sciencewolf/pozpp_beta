@@ -1,11 +1,15 @@
 from Interpreter import Interpreter
-import os, sys
+import os
 
 
 class Preprocess:
+    print("""
+        Preprocess called
+    """)
+
     def __init__(self):
         self.interpreter = Interpreter()
-        self.path = os.getcwd()
+        # self.path = os.getcwd()
         self.KEYWORDS = {
             "chislo": "def",
             "holovna": "main",
@@ -20,7 +24,7 @@ class Preprocess:
         var = self.interpreter.open_pozpp_file(file_name)
         pozpp_file = open(f"{var}", 'r')
 
-        py_file = open(f'{self.path}\\{file_name}', 'w')
+        py_file = open(f'{file_name}.py', 'w')
 
         lines = pozpp_file.readlines()
         print(lines)
