@@ -1,11 +1,7 @@
-from Interpreter import Interpreter
-from Preprocess import Preprocess
-import sys, os
+from Run import Run
 
 if __name__ == "__main__":
-    path_of_input_file = sys.argv[1]
+    return_code = Run.combine_all()
+    print(return_code)
 
-    interpreter = Interpreter()
-    interpreter.open_pozpp_file(path_of_input_file)
 
-    preprocess = Preprocess()
