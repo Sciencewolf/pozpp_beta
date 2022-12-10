@@ -7,13 +7,15 @@ import os
 
 # On dev
 class Run:
+    print("""
+        Run called
+    """)
 
     def __init__(self):
         self.interpreter = Interpreter()
         self.preprocess = Preprocess()
 
-    def combine_all(self) -> int:
-        file_name = sys.argv[1]
+    def combine_all(self, file_name) -> int:
         path = self.interpreter.open_pozpp_file(file_name)
         result = self.preprocess.convert_pozpp_to_py(path)
 
