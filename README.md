@@ -27,7 +27,7 @@
 #### Screenshot "First success run"
 ![first success run](screenshot.png)
 
-# To-DO (Fixing issues, etc.)
+# TO-DO (Fixing issues, etc.)
 * Issue with converting all pozpp keywords to py keywords **word-by-word method**
 * Website 
 
