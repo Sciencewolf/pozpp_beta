@@ -22,10 +22,8 @@ class Interpreter:
         else:
             file_pozpp = open(f"{file_name}", 'r')
             self.ls = file_pozpp.readlines()
+            print("File is good")
 
-        file = open(f"{file_name}", 'w')
+        print("File_pozpp name Interpreter", file_pozpp.name)
 
-        for line in self.ls:
-            file.write(line)
-
-        return file.name
+        return file_pozpp.name
