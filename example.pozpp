@@ -1,4 +1,4 @@
-chislo holovna():
+chislo main():
   nekaj("Privet")
 
 
