@@ -1,4 +1,4 @@
-# Pozakarpatskiy++ Programming language
+# Pozakarpatskiy++ Programming Language
 
 # Version 0.1
 
