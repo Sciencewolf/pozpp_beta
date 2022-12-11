@@ -1,4 +1,4 @@
-from Run import Run
+from Build import Build
 import sys
 
 if __name__ == "__main__":
@@ -7,9 +7,10 @@ if __name__ == "__main__":
     """)
 
     file_name = sys.argv[1]
+    print("Main: file_name", file_name)
 
-    run = Run()
-    return_code = Run.combine_all(run, file_name)
+    run = Build()
+    return_code = Build.combine_all(run, file_name)
 
     if return_code == 0:
         print("Completed successfully")
