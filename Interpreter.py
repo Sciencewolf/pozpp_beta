@@ -2,7 +2,7 @@ import os
 
 print("""
 Welcome to Pozakarpatsky++ programming language
-Version 0.5
+Version 0.5 beta
 Project started: 11/28/2022
 """)
 
