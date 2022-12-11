@@ -10,13 +10,20 @@
 
 # Preparing for Version 0.5
 
-* Implementation of [Run.py](https://github.com/Sciencewolf/pozpp_beta/blob/master/Run.py) --almostdonestatus
-* Trying to test the programming language --triedstatus
+* Implementation of [Run.py](https://github.com/Sciencewolf/pozpp_beta/blob/master/Run.py) ~~--almostdonestatus~~ --donestatus
+* Trying to test the programming language ~~--triedstatus~~ --donestatus
 
 ### Testing
 * Test 1. Trying to run main.py --triedfailedstatus
 * keywords is changed but without content example => defmainmainifprint
 * output file [example.pozpp.py](https://github.com/Sciencewolf/pozpp_beta/blob/master/example.pozpp.py)
+##### --------------------------------
+
+* Final test --donestatus
+* output file [example.py](https://github.com/Sciencewolf/pozpp_beta/blob/master/example.py)
+
+# Version 0.5 beta
+* 12/11/2022
 
 # Our CodeEditor
 * [CodeEditor](https://sciencewolf.github.io/CodeEditor/)
