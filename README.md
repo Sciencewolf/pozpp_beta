@@ -27,5 +27,8 @@
 #### Screenshot "First success run"
 ![first success run](screenshot.png)
 
+# To-DO (Fixing issues)
+* Issue with converting all pozpp keywords to py keywords **word-by-word method**
+
 # Our CodeEditor
 * [CodeEditor](https://sciencewolf.github.io/CodeEditor/)
