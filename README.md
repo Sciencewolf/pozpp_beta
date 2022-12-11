@@ -14,12 +14,12 @@
 * Trying to test the programming language ~~--triedstatus~~ --donestatus
 
 ### Testing
-* Test 1. Trying to run main.py --triedfailedstatus
+* Test 1. Trying to run [main.py](https://github.com/Sciencewolf/pozpp_beta/blob/master/main.py) --triedfailedstatus
 * keywords is changed but without content example => defmainmainifprint
 * output file [example.pozpp.py](https://github.com/Sciencewolf/pozpp_beta/blob/master/example.pozpp.py)
 ##### --------------------------------
 
-* Final test --donestatus
+* Test 2. Trying to run [main.py](https://github.com/Sciencewolf/pozpp_beta/blob/master/main.py)  --donestatus
 * output file [example.py](https://github.com/Sciencewolf/pozpp_beta/blob/master/example.py)
 
 # Version 0.5 beta
