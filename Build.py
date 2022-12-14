@@ -23,6 +23,7 @@ class Build:
         print(self.BLUE + "-" * 20 + self.ENDC)
         print(self.WARNING + "Expected errors below" + self.ENDC)
 
+        # This to main.py
         if os.system(f'python {result}') == 0:
             return 0
         else:

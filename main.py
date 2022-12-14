@@ -6,6 +6,8 @@ if __name__ == "__main__":
     WARNING = '\033[93m'
     ENDC = '\033[0m'
 
+    # Here to check and automatically execute file [In future]
+
     if len(sys.argv) < 2:
         print("Error: Argument is not valid")
         print(WARNING + "Status: --argvnotcorrect" + ENDC)
