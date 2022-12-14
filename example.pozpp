@@ -1,8 +1,0 @@
-chislo main():
-  nekaj("Privet")
-
-
-kity __name__ == "__main__":
-  holovna()
-
-# test
