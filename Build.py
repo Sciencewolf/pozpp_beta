@@ -21,7 +21,6 @@ class Build:
         result = self.preprocess.convert_pozpp_to_py(path)
 
         print(self.BLUE + "-" * 20 + self.ENDC)
-        print(self.WARNING + "Expected errors below" + self.ENDC)
 
         # This to main.py
         if os.system(f'python {result}') == 0:
