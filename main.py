@@ -1,10 +1,11 @@
 from Build import Build
+from Interpreter import Interpreter
 import sys
-import os
 
 if __name__ == "__main__":
     WARNING = '\033[93m'
     ENDC = '\033[0m'
+    interpreter = Interpreter()
 
     # Here to check and automatically execute file [In future]
 
@@ -15,14 +16,14 @@ if __name__ == "__main__":
     elif len(sys.argv) > 2:
         print("Error: Too man arguments")
         print(WARNING + "Status: --overexpectedargvs" + ENDC)
+    elif sys.argv[1] == '--help' or sys.argv[1] == '-h':
+        print(interpreter.get_syntax())
     else:
         file_name = sys.argv[1]
         run = Build()
         return_code = Build.combine_all(run, file_name)
 
         if return_code == 0:
-            print("Completed successfully")
-            print(WARNING + "Status: --noerror, --completedsuccessfully" + ENDC)
+            print(WARNING + "Status: --noerror, --codeexecuted" + ENDC)
         elif return_code == 1:
-            print("Error: Code is not executed")
-            print(WARNING + "Status: --error" + ENDC)
+            print(WARNING + "Status: --error, --codenotexecuted" + ENDC)
