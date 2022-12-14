@@ -34,10 +34,12 @@
 > First, download this repository and write your first program
 * Save file as [filename].pozpp
 
-> Then, open your terminal in source code directory and type `python main.py [pozpp_filename]`
+> Then, open your terminal in source code directory and type 
+`python main.py [pozpp_filename]`
 
-> For example `python main.py example.pozpp`
-> 
+> For example 
+`python main.py example.pozpp`
+
 ### Get help
 `python main.py --help`
 
