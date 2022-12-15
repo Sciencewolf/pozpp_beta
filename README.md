@@ -5,13 +5,16 @@
 
 ## How to run pozpp code
 > First, download this repository and write your first program
-* Save file as [filename].pozpp
+>
+> or `git clone https://github.com/Sciencewolf/pozpp_beta`
+
+> Write your pozpp code and save it as [filename].pozpp
 
 > Then, open your terminal in source code directory and type 
 `python main.py [pozpp_filename]`
 
 > For example 
-`python main.py example.pozpp`
+`python main.py helloworld.pozpp`
 
 ### Get help
 `python main.py --help`
