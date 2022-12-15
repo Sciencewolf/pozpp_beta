@@ -1,4 +1,23 @@
 # Pozakarpatskiy++ Programming Language
+> Current stable version is 0.5
+# Version 0.5
+* 12/14/2022
+
+## How to run pozpp code
+> First, download this repository and write your first program
+* Save file as [filename].pozpp
+
+> Then, open your terminal in source code directory and type 
+`python main.py [pozpp_filename]`
+
+> For example 
+`python main.py example.pozpp`
+
+### Get help
+`python main.py --help`
+
+`python main.py -h`
+
 
 # Version 0.1
 
@@ -27,23 +46,6 @@
 #### Screenshot "First success run"
 ![first success run](screenshot.png)
 
-# Version 0.5
-* 12/14/2022
-
-## How to run pozpp program
-> First, download this repository and write your first program
-* Save file as [filename].pozpp
-
-> Then, open your terminal in source code directory and type 
-`python main.py [pozpp_filename]`
-
-> For example 
-`python main.py example.pozpp`
-
-### Get help
-`python main.py --help`
-
-`python main.py -h`
 
 
 # TO-DO (Fixing issues, etc.)
