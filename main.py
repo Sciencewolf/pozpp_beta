@@ -1,6 +1,7 @@
 from Interpreter import Interpreter
 from Preprocess import Preprocess
-import sys, os
+import sys
+import os
 
 
 def execute():
