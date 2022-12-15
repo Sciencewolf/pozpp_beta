@@ -1,0 +1,5 @@
+Python >= 3.5
+
+Pozakarpatskiy++ >= 0.5
+
+downloaded source code
