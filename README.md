@@ -15,6 +15,8 @@
 
 > For example 
 `python main.py helloworld.pozpp`
+ 
+* [Requirements](https://github.com/Sciencewolf/pozpp_beta/blob/master/requirements.txt)
 
 ### Get help
 `python main.py --help`
