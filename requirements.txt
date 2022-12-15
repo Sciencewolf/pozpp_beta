@@ -1,4 +1,4 @@
-Python >= 3.5
+Python >= 3
 
 Pozakarpatskiy++ >= 0.5
 
