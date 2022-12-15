@@ -1,0 +1,2 @@
+kity __name__ == "__main__":
+    nekaj("Hello, World!")
