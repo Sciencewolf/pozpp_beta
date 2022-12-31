@@ -51,11 +51,5 @@
 #### Screenshot "First success run"
 ![first success run](screenshot.png)
 
-
-
-# TO-DO (Fixing issues, etc.)
-* ~~Issue with converting all pozpp keywords to py keywords **word-by-word method**~~ --donestatus
-* Website 
-
-# Our CodeEditor
+# Try CodeEditor
 * [CodeEditor](https://sciencewolf.github.io/CodeEditor/)
